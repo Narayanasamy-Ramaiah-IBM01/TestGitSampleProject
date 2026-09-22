@@ -1,0 +1,9 @@
+version: "1.0"
+info:
+  model: int-scaffold
+packages:
+- name: TestGitSampleProject
+  gitServerName: narayan_shared_2
+  gitUrl: https://github.com/Narayanasamy-Ramaiah-IBM01
+  gitUsername: Narayanasamy-Ramaiah-IBM01
+  gitBranch: main
