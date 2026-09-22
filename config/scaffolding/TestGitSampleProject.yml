@@ -7,3 +7,12 @@ packages:
   gitUrl: https://github.com/Narayanasamy-Ramaiah-IBM01
   gitUsername: Narayanasamy-Ramaiah-IBM01
   gitBranch: main
+services:
+- serviceName: project.testgitsample.integrations:testFlowDAF
+  packages:
+  - name: TestGitSampleProject
+    version: "1.0"
+- serviceName: pub.string:toUpper
+  packages:
+  - name: WmPublic
+    version: 12.1.0.0.1206
